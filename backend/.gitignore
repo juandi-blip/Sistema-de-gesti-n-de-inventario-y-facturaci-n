@@ -1,0 +1,12 @@
+# Secretos — nunca al repositorio
+.env
+
+# Dependencias
+node_modules/
+
+# Base de datos local (contiene datos del negocio y hashes)
+vulcan-data.json
+
+# Logs
+*.log
+npm-debug.log*

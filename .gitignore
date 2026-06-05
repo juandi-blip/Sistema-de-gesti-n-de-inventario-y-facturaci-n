@@ -1,0 +1,40 @@
+# ==========================================================================
+#   VULCAN FORGE — Git ignore (raíz del proyecto)
+# ==========================================================================
+
+# --- Entorno y herramientas locales ---
+.agents/
+.claude/
+.playwright-mcp/
+skills-lock.json
+
+# --- Backend (también tiene su propio .gitignore específico) ---
+backend/node_modules/
+backend/.env
+backend/vulcan-data.json
+backend/*.log
+backend/npm-debug.log*
+
+# --- Frontend ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Sistema operativo ---
+.DS_Store
+desktop.ini
+ehthumbs.db
+
+# --- Builds / distribuciones ---
+dist/
+build/
+out/
+*.min.js
+*.min.css
